@@ -29,3 +29,4 @@ Route::get('/signup','ClientController@signup')->name('signup_path');
 
 Route::get('/paiement','ClientController@paiement')->name('paiement_path');
 
+Route::get('/admin','AdminController@dashboard')->name('dashboard_path');
